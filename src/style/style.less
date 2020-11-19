@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: azure;
+}
+.ticTacToe {
+  text-align: center;
+  font-family: cursive;
+  h1 {
+    font-size: xxx-large;
+    @media (max-width: 1100px) {
+      margin: 135px;
+    }
+  }
+  .ticTacToeGame {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 50px auto;
+    border-radius: 7px;
+    @media (max-width: 1100px) {
+      width: 700px;
+      height: 700px;
+      border-radius: 17px;
+      margin-bottom: 150px;
+    }
+    .ttt-grid {
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;
+      float: left;
+      box-sizing: border-box;
+      padding: 15px;
+      font-size: xxx-large;
+      cursor: pointer;
+      @media (max-width: 1100px) {
+        width: 233px;
+        height: 233px;
+        padding: 80px;
+      }
+    }
+  }
+  button {
+    padding: 15px 105px;
+    border: none;
+    background-color: burlywood;
+    font-size: larger;
+    border-radius: 3px;
+    font-family: cursive;
+    cursor: pointer;
+    @media (max-width: 1100px) {
+      font-size: xxx-large;
+      padding: 50px 240px;
+      border-radius: 13px;
+    }
+  }
+  .winner {
+    font-size: xxx-large;
+    @media (max-width: 1100px) {
+      font-weight: 600;
+      margin-bottom: 150px;
+    }
+  }
+  footer {
+    position: absolute;
+    bottom: 10px;
+    right: calc(46%);
+    @media (max-width: 1100px) {
+      font-size: xx-large;
+      margin-top: 355px;
+      right: calc(38%);
+    }
+  }
+}
