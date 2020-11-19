@@ -85,8 +85,8 @@ class App extends React.Component {
         <footer>by Vlad Romanov</footer>
       </div>
     );
-  }
 
+  }
 }
 
 export default App;
