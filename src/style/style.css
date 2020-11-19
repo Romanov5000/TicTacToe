@@ -10,15 +10,11 @@ body {
 @media (max-width: 1100px) {
   .ticTacToe {
     font-family: system-ui;
+    font-weight: bold;
   }
 }
 .ticTacToe h1 {
   font-size: xxx-large;
-}
-@media (max-width: 1100px) {
-  .ticTacToe h1 {
-    margin: 20px 135px 135px;
-  }
 }
 .ticTacToe .ticTacToeGame {
   width: 300px;
@@ -66,6 +62,8 @@ body {
     font-size: xxx-large;
     padding: 50px 240px;
     border-radius: 13px;
+    font-family: system-ui;
+    font-weight: bold;
   }
 }
 .ticTacToe .winner {
@@ -73,7 +71,7 @@ body {
 }
 @media (max-width: 1100px) {
   .ticTacToe .winner {
-    font-weight: 600;
+    font-size: xxx-large;
     margin-bottom: 150px;
   }
 }
