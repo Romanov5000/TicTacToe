@@ -7,12 +7,17 @@ body {
   text-align: center;
   font-family: cursive;
 }
+@media (max-width: 1100px) {
+  .ticTacToe {
+    font-family: system-ui;
+  }
+}
 .ticTacToe h1 {
   font-size: xxx-large;
 }
 @media (max-width: 1100px) {
   .ticTacToe h1 {
-    margin: 135px;
+    margin: 20px 135px 135px;
   }
 }
 .ticTacToe .ticTacToeGame {
